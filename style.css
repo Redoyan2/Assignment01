@@ -1,0 +1,133 @@
+body{
+    font-family: 'IBM Plex Serif', serif;
+    
+    
+}
+.container{
+    margin:0px 100px 20px;
+}
+
+.flex-display{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    
+}
+
+.slice-margin{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, black, crimson);
+    border-image-slice: 1;
+    padding-top: 0px;
+}
+
+#image-box{
+    height: 600px;
+    width: 500px;
+}
+span{
+    color: crimson;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+.button-tap{
+    color: ghostwhite;
+   text-decoration: none;
+   padding: 8px 30px;
+   background: linear-gradient(orange, crimson);
+   border-radius: 5px;
+}
+section{
+    margin-bottom: 100px;
+}
+.mission-header{
+    text-align: center;
+}
+#mission-img{
+    height: 150px;
+    width: 150px;
+}
+.mission{
+    width: 30%;
+    background-color: rgb(213, 241, 241);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.vision{
+    width: 30%;
+    background-color:cornsilk;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.goal{
+    width: 30%;
+    background-color: rgb(247, 233, 213);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.develop-section{
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+
+#development-img{
+    height: 400px;
+    width: 400px;
+}
+
+.development-background-img{
+    height: 5%;
+    background-image: url("images/shapes/shape-1.png");
+    background-repeat: no-repeat;
+    background-position:left;
+    background-size: 200px;
+}
+
+.global-community-section{
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 100px; 
+    padding-bottom: 60px;
+    background-image: url("images/shapes/shape-1.png");
+    background-repeat: no-repeat;
+    background-position-x: 1150px;
+    background-position-y: 330px;
+    background-size: 150px;
+    
+}
+.app-header{
+    text-align: center;
+}
+#app-img{
+    height: 600px;
+    width: 450px;
+    
+}
+.app-img01{
+    background-image: url("images/shapes/shape-3.png");
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position-x:-1px;
+    background-position-y: -1px;
+}
+.app-img-box{
+    padding: 5px;
+}
+
+footer{
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 5px 50px 20px 50px ;
+    margin-bottom: 0px
+}
